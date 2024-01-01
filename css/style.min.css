@@ -1,0 +1,28 @@
+@font-face{
+    font-family:"Roboto";
+    src:url("../assets/fonts/Nunito/Nunito-Regular.ttf") format("truetype")
+}
+@font-face{
+    font-family:"Roboto Bold";
+    src:url("../assets/fonts/Nunito/Nunito-Bold.ttf") format("truetype")
+}
+body{
+    margin:0;
+    padding:0
+}
+.section{
+    width:100vw;
+    min-height:100vh;
+    max-height:100vh
+}
+*,html,body{
+    font-family:"Nunito"
+}
+::-webkit-scrollbar{
+    width:1px
+}
+::-webkit-scrollbar-thumb{
+    background-color:#089eca;
+    border-radius:15px
+}
+@keyframes blink{to{opacity:0}}
